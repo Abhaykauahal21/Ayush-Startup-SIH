@@ -227,4 +227,352 @@ body {
     justify-content: center; /* Center the cards horizontally within the container */
 }
 
+.section-3{
+    width: 100vw;
+    height: 90vh;
+    background: #F9F9F9;
+    margin-bottom: 0px;
 
+}
+
+.heading{
+    position: relative;
+    top: 115px;
+    left: 11.625rem;
+    font-size: 40px;
+}
+
+.section-3 .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.section-3 .content2{
+    width: 590px;
+    height: 257px;
+    top: 150px;
+    left: 170px;
+}   
+
+
+.section-4 {
+    width: 100vw;
+    height: 90vh;
+    background: #F9F9F9;
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding: 20px; /* Add some padding around the section */
+    margin-top: -90px; /* Add some padding around the section */
+}
+
+.ministry {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37.62px;
+    text-align: center;
+    margin-bottom: 30px; /* Space between heading and images */
+}
+
+.cards4 {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: center; /* Center images horizontally */
+    gap: 20px; /* Space between images */
+}
+
+.cards4 img {
+    width: 280px; /* Adjust the width as needed */
+    height: 180px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+    /* No need for margin here as gap handles spacing */
+}
+.card-inner {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 16px;
+    color: #666;
+}
+
+.webcast{
+    width: 100vw;
+    height: 90vh;
+    padding: 2rem;
+    background: #fafafb;
+    margin-bottom: 0px;
+    
+
+}
+.webcast .robo-webcast{
+    position: relative;
+    top: 2rem;
+    left: 14rem;
+    display: block;
+}
+
+
+.webcast .robo-tv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.webcast .img{
+    width: 521px;
+    height: 521.521px;
+    flex-shrink: 0;
+}
+
+.section-slidder{
+    width: 100vw;
+    height: 90vh;
+    background: #F0F8FE;
+    margin-bottom: 0px;
+}
+
+.section-slidder .slidder-head h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 117.562%; /* 37.62px */
+    display: flex;
+    /* align-items: center; */
+    top: 2rem;
+    justify-content: center;
+}
+
+.section-slidder .slidder-head p{
+    color: #4C4C4C;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    line-height: 117.562%; /* 21.161px */   
+}
+
+.section-slidder #users{
+    color: #6CAF2A;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 117.562%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.slider-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial-slider {
+    position: relative;
+    width: 80%;
+    max-width: 800px; /* Larger max-width for the slider */
+    height: 400px; /* Fixed height for the slider */
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.testimonial-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%; /* Ensure full height for the container */
+}
+
+.testimonial-container #name{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 51.2px */
+    letter-spacing: 0.14px;
+    height: 11rem;
+    left: -15rem;
+    position: relative;
+    top: -42px;
+}
+
+.testimonial-card {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #5D5FEF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100%; /* Ensure full height for each card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    font-size: 1.2em; /* Adjust font size for better readability */
+    
+}
+
+.testimonial-card p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: 0.14px; 
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    z-index: 10;
+    transform: translateY(-50%);
+    font-size: 1.5em; /* Increase button size for better visibility */
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.section-footer {
+    width: 100vw; /* Ensure the section spans the full viewport width */
+    height: 349px; /* Set the height of the footer as needed */
+    background: #ffffff; /* Set a background color to ensure full width visibility */
+    overflow: hidden; /* Hide any overflowing content */
+    position: relative; /* Position relative for child absolute positioning */
+}
+
+#background {
+    width: 100%; /* Ensure background image or content spans full width */
+    height: 100%; /* Ensure background image or content spans full height */
+    position: absolute; /* Absolute positioning to cover the entire footer */
+    top: 0;
+    left: 0;
+    display: flex; /* Use Flexbox for layout */
+    justify-content: center; /* Center logos horizontally */
+    align-items: center; /* Center logos vertically */
+}
+
+#background img {
+    width: 100%; /* Make sure the image covers the full width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.section-footer {
+    width: 100vw; /* Ensure the section spans the full viewport width */
+    height: 349px; /* Set the height of the footer as needed */
+    background: #ffffff; /* Set a background color to ensure full width visibility */
+    overflow: hidden; /* Hide any overflowing content */
+    position: relative; /* Position relative for child absolute positioning */
+}
+
+#background {
+    width: 100%; /* Ensure background image or content spans full width */
+    height: 100%; /* Ensure background image or content spans full height */
+    position: absolute; /* Absolute positioning to cover the entire footer */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #98CD64;
+    /* z-index: -1; */
+}
+.section-footer .footer-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-heading h2 {
+    position: relative;
+    top: -3rem;
+    left: 35rem;
+}
+
+.section-footer .logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Centers logos and distributes space evenly */
+    margin: 5rem;
+    gap: 70px; /* Add this line to create space between logos */
+    position: relative;
+    top: 4rem;
+    left: -9.5rem;
+}
+
+.section-footer .logo {
+    width: 8rem; /* Adjust size of logos if needed */
+}
+
+#background img {
+    width: 8rem; /* Make sure the image covers the full width */
+    height: auto; /* Maintain aspect ratio */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+
+}
+
+#background h6{
+    position: relative;
+    left: 28rem;
+    top: -3rem;
+    font-size: 10px;
+}
+
+.section-footer .logo{
+    width: 2rem;
+}
+
+.section-contect {
+    margin: 10px;
+    width: 100vw;
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    background: #fafafb; /* Add a background color if needed */
+    display: flex; /* Optional: use Flexbox for layout if needed */
+    align-items: center; /* Optional: center content vertically */
+    justify-content: center; /* Optional: center content horizontally */
+}
+
+.section-contect img{
+    width: 100%;
+}

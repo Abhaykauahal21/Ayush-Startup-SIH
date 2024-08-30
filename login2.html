@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/login2.css">
+</head>
+<body>
+    <div class="navbar">
+        <div id="logo">
+            <img src="/assets/img/Ministry-of-AYUSH-logo-1-3 1.svg" alt="Logo">
+        </div>
+        <div id="language">
+            <dropdown>
+                <input id="toggle2" type="checkbox">
+                <label for="toggle2" class="animate">
+                    <img src="/assets/img/drop-down--englisg.svg" alt="Dropdown Icon" style="width: 4rem;">
+                </label>
+                <ul class="animate">
+                    <li>Lietuvškai</li>
+                    <li>Rusiškai</li>
+                    <li>Angliškai</li>
+                </ul>
+            </dropdown>
+        </div>
+    </div>
+
+    <div class="hero--section">
+        <div class="main-form">
+            <div id="heading-form">
+                <h2>Fast & <span style="color: #1782CF;">Efficient</span><br> Registration.</h2>
+                <p>Please do not exit between process.</p>
+            </div>
+            <form>
+                <!-- Row 1: First Name, Middle Name, Last Name -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <!-- <div class="form-group">
+                        <label for="middleName">Middle Name</label>
+                        <input type="text" id="middleName" name="middleName">
+                    </div> -->
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <!-- Row 2: Date of Birth, Phone Number -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="dateOfBirth">Date of Birth</label>
+                        <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+                </div>
+
+                <!-- Row 3: Aadhar Number, PAN Number -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="aadharNumber">Aadhar Number</label>
+                        <input type="text" id="aadharNumber" name="aadharNumber" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="panNumber">PAN Number</label>
+                        <input type="text" id="panNumber" name="panNumber">
+                    </div>
+                </div>
+
+                <!-- Row 4: Email Address, Gender -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="emailAddress">Email Address</label>
+                        <input type="email" id="emailAddress" name="emailAddress" required>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <div class="radio-group">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit">Proceed</button>
+            </form>
+        </div>
+
+        <div class="div2">
+            <img src="/assets/img/side-svg-form-side.svg" alt="">
+
+            <div class="lower-side">
+                <a href="#">
+                    <img src="/assets/img/Need Help_.svg" alt="">
+                </a>
+                <img src="/assets/img/If you are facing any issue, feel free to use our Virtual AI Assistance..svg" alt="">
+                <a href="#">
+                    <img src="/assets/img/Group 17.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
