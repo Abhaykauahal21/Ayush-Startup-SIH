@@ -1,0 +1,230 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(177.42deg, #F8FAFC 2.16%, #E6F4FE 127.12%);
+    margin: 0;
+    z-index: -1000;
+    padding: 0;
+    overflow-x: hidden;
+    /* overflow: hidden; Prevents horizontal scrolling */
+}
+
+.navbar {
+    width: 90%;
+    margin: 10px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px 15px; /* Reduce padding */
+    height: 48px; /* Smaller height */
+    position: sticky;
+    top: 20px; /* Increase the distance from the top */
+    z-index: 1000;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.hero-section {
+    height: 90vh;
+    padding: 100px 0;
+    background: linear-gradient(177.42deg, #F8FAFC 2.16%, #E6F4FE 127.12%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section .display-4 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #333;
+}
+
+.hero-section .lead {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black    ;
+    margin-top: 20px;
+}
+
+.hero-section .participent img {
+    max-width: 250px; /* Adjust the size as needed */
+    height: auto;     /* Maintain aspect ratio */
+    margin-right: 20px; 
+}
+
+.hero-section .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.hero-section .hero-img {
+    width: 100vw; /* Make the image full-width */
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    width: fit-content;
+    z-index: 1;
+
+
+   
+}
+
+.hero-section .small-circle{
+    position: absolute;
+    top: 60%;
+    left: 90%;
+}
+
+.hero-section .bg-circle{
+    position: absolute;
+    opacity: 0.3    ;
+    bottom: 0;
+    left: 22%;
+    border: none;
+}
+
+
+.service-section {
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    background: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    z-index: 9999;
+}
+
+.service-section .green{
+    width: 100%;
+    height: 20%;
+    margin-top: -20px;
+    border-radius: 0.5rem;
+    background: #6CAF2A;
+
+    /* width: 1370px;
+    height: 210px;
+    top: 808px;
+    left: 35px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px; */
+
+
+}
+
+.service-section .text{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 100%; 
+   
+}
+
+.service-section .text img {
+    max-width: 100%; /* Prevent the image from exceeding the container’s width */
+    max-height: 100%; /* Prevent the image from exceeding the container’s height */
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding: 20px; /* Optional: Add padding to prevent cards from touching the container's edge */
+}
+
+.card-row1 {
+    display: flex;
+    align-items: flex-start; /* Align items at the start to maintain consistency */
+    gap: 2rem; /* Adjust gap between cards */
+    justify-content: center; /* Center the cards horizontally within the container */
+}
+
+.card {
+    width: 360px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    object-fit: cover;
+    margin-top: 10px; /* Add space above the image */
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card-text {
+    margin: 10px 0;
+    color: #666;
+    font-size: 1em;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+
+.card-row2 {
+    display: flex;
+    align-items: flex-start; /* Align items at the start to maintain consistency */
+    gap: 2rem; /* Adjust gap between cards */
+    justify-content: center; /* Center the cards horizontally within the container */
+}
+
+
