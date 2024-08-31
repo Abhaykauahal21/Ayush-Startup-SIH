@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/login2.css">
+    <link rel="stylesheet" href="/registration3.css">
 </head>
 <body>
     <div class="navbar">
@@ -39,14 +39,35 @@
                         <label for="innovation">Type Of Innovation</label>
                         <input type="text" id="innovation" name="innovation" required>
                     </div>
-                    <div class="form-group">
-                        <label for="innovation-name">Innovation Name</label>
-                        <input type="text" id="innovation-name" name="innovation-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="innovation-name">Innovation Name</label>
+                    <input type="text" id="innovation-name" name="innovation-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="organization-address">Organization Address</label>
+                    <div class="address-container">
+                        <!-- Column 1 -->
+                        <div class="address-column">
+                            <input type="text" placeholder="Plot No., Building Name" class="address-field">
+                        </div>
+                        <!-- Column 2 -->
+                        <div class="address-column">
+                            <input type="text" placeholder="Road Name, Area, Colony" class="address-field">
+                        </div>
+                        <!-- Column 3 and 4 (same row) -->
+                        <div class="address-column address-column-half">
+                            <input type="text" placeholder="State" class="address-field">
+                        </div>
+                        <div class="address-column address-column-half">
+                            <input type="text" placeholder="City" class="address-field">
+                        </div>
+                        <!-- Column 5 -->
+                        <div class="address-column">
+                            <input type="text" placeholder="Pincode" class="address-field">
+                        </div>
                     </div>
                 </div>
-                    
-            
-                    
 
                 <button type="submit">Proceed</button>
             </form>
